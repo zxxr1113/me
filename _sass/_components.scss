@@ -110,7 +110,9 @@ ul.task-list input[type="checkbox"] {
   border-radius: 0.85rem;
   min-height: 13.5rem;
   padding: 1.35rem;
-  transition: border-color 0.2s ease, transform 0.2s ease;
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease;
 
   &:hover {
     border-color: var(--global-theme-color);
