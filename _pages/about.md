@@ -47,8 +47,8 @@ I am XiRan Zhao, a Computer Science undergraduate at the University of Chinese A
 <div class="experience-list">
   <section class="experience-item">
     <p class="experience-meta">Current · Berkeley, CA</p>
-    <h3>UC Berkeley</h3>
-    <p>Visiting student. I have worked with Alan on a range of optimization efforts for ABC, the open-source logic synthesis and formal verification framework. This experience connects my current work on agents with a longer-standing interest in efficient algorithms for EDA.</p>
+    <h3>Research Intern · UC Berkeley</h3>
+    <p>I work with Alan on optimization for <a href="https://github.com/berkeley-abc/abc">ABC</a>, the open-source logic synthesis and formal verification system. My current work focuses on optimization and <code>&amp;scorr</code>. Interested readers can find my contributions in the <a href="https://github.com/berkeley-abc/abc/pulls">ABC pull-request history</a>.</p>
   </section>
   <section class="experience-item">
     <p class="experience-meta">Research internship · Beijing</p>
