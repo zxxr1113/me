@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://zxxr1113.github.io/XiRan-intro/sitemap.xml
+Sitemap: https://zxxr1113.github.io/me/sitemap.xml
