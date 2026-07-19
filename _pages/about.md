@@ -7,7 +7,7 @@ subtitle: Computer Science · UCAS · UC Berkeley
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true
+  image_circular: false
   more_info: >
     Berkeley, California
 
@@ -22,25 +22,54 @@ latest_posts:
   scrollable: false
 ---
 
-I am XiRan Zhao, a Computer Science undergraduate at the University of Chinese Academy of Sciences and a visiting student at UC Berkeley. I work on the algorithms and systems that make intelligent agents more reliable, efficient, and useful.
+<p class="hero-intro">I am a Computer Science undergraduate at the University of Chinese Academy of Sciences and a research intern at UC Berkeley. I work on intelligent agents, formal methods, and algorithms for electronic design automation.</p>
 
-<div class="research-grid">
+<div class="hero-links">
+  <a href="mailto:zhaoxiran1113@berkeley.edu">Email</a>
+  <a href="https://github.com/zxxr1113">GitHub</a>
+  <a href="https://github.com/berkeley-abc/abc/pulls">ABC contributions</a>
+</div>
+
+<section class="featured-work">
+  <div class="section-heading">
+    <p class="eyebrow">Current work</p>
+    <p>Berkeley, California</p>
+  </div>
+  <div class="featured-work-card">
+    <div>
+      <p class="work-role">Research Intern · UC Berkeley</p>
+      <h2>Optimizing <a href="https://github.com/berkeley-abc/abc">ABC</a> for better logic synthesis.</h2>
+    </div>
+    <div class="work-summary">
+      <p>I work with Alan on optimization in ABC, the open-source logic synthesis and formal verification system. My current work focuses on optimization and <code>&amp;scorr</code>.</p>
+      <a class="work-link" href="https://github.com/berkeley-abc/abc/pulls">Browse my ABC pull requests <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="research-section">
+  <div class="section-heading">
+    <p class="eyebrow">Research directions</p>
+    <p>Systems-minded AI</p>
+  </div>
+  <div class="research-grid">
   <section class="research-card">
-    <p class="eyebrow">01</p>
+    <p class="card-index">01</p>
     <h2>Agent design</h2>
     <p>I design agents that plan, use tools, and adapt their reasoning to the task at hand. My current interest is in making these systems easier to evaluate and more dependable in practice.</p>
   </section>
   <section class="research-card">
-    <p class="eyebrow">02</p>
+    <p class="card-index">02</p>
     <h2>Formal methods × agents</h2>
     <p>I am exploring the connection between formal verification and agents, with an emphasis on using rigorous constraints and feedback to improve agent behavior.</p>
   </section>
   <section class="research-card">
-    <p class="eyebrow">03</p>
+    <p class="card-index">03</p>
     <h2>Logic &amp; synthesis</h2>
     <p>I continue to work on algorithmic optimization for logic synthesis, especially timing-aware synthesis and the computational foundations behind EDA tools.</p>
   </section>
-</div>
+  </div>
+</section>
 
 ## Experience
 
@@ -48,7 +77,7 @@ I am XiRan Zhao, a Computer Science undergraduate at the University of Chinese A
   <section class="experience-item">
     <p class="experience-meta">Current · Berkeley, CA</p>
     <h3>Research Intern · UC Berkeley</h3>
-    <p>I work with Alan on optimization for <a href="https://github.com/berkeley-abc/abc">ABC</a>, the open-source logic synthesis and formal verification system. My current work focuses on optimization and <code>&amp;scorr</code>. Interested readers can find my contributions in the <a href="https://github.com/berkeley-abc/abc/pulls">ABC pull-request history</a>.</p>
+    <p>Working with Alan on ABC optimization, with a current focus on <code>&amp;scorr</code> and logic-synthesis algorithms.</p>
   </section>
   <section class="experience-item">
     <p class="experience-meta">Research internship · Beijing</p>
@@ -62,8 +91,9 @@ I am XiRan Zhao, a Computer Science undergraduate at the University of Chinese A
   </section>
 </div>
 
-## Background
-
-My background spans hardware, algorithms, and AI systems. I am comfortable moving between Python and C/C++, and I use Verilog/SystemVerilog when a project reaches the hardware boundary. I care most about problems where better abstractions and better algorithms reinforce each other.
+<section class="background-note">
+  <p class="eyebrow">Background</p>
+  <p>My work moves between hardware, algorithms, and AI systems. I use Python, C/C++, and Verilog/SystemVerilog, and I am drawn to problems where better abstractions meet better algorithms.</p>
+</section>
 
 <p class="contact-line">I welcome conversations about agents, formal methods, logic synthesis, and new research collaborations. <a href="mailto:zhaoxiran1113@berkeley.edu">zhaoxiran1113@berkeley.edu</a></p>
