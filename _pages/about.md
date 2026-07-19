@@ -38,10 +38,10 @@ latest_posts:
   <div class="featured-work-card">
     <div>
       <p class="work-role">Research Intern · UC Berkeley</p>
-      <h2>Optimizing <a href="https://github.com/berkeley-abc/abc">ABC</a> for better logic synthesis.</h2>
+      <h2>Optimizing <code>&amp;scorr</code> in <a href="https://github.com/berkeley-abc/abc">ABC</a>.</h2>
     </div>
     <div class="work-summary">
-      <p>I work with Alan on optimization in ABC, the open-source logic synthesis and formal verification system. My current work focuses on optimization and <code>&amp;scorr</code>.</p>
+      <p>I work with Alan on optimizing <code>&amp;scorr</code> in ABC, the open-source logic synthesis and formal verification system. I focus on algorithmic improvements for logic synthesis.</p>
       <a class="work-link" href="https://github.com/berkeley-abc/abc/pulls">Browse my ABC pull requests <span aria-hidden="true">↗</span></a>
     </div>
   </div>
@@ -61,7 +61,7 @@ latest_posts:
   <section class="research-card">
     <p class="card-index">02</p>
     <h2>Formal methods × agents</h2>
-    <p>I am exploring the connection between formal verification and agents, with an emphasis on using rigorous constraints and feedback to improve agent behavior.</p>
+    <p>I design agents for formally verifying code, in the spirit of systems such as FMAgent. They combine program reasoning with verification tools to produce checkable results.</p>
   </section>
   <section class="research-card">
     <p class="card-index">03</p>
@@ -77,7 +77,7 @@ latest_posts:
   <section class="experience-item">
     <p class="experience-meta">Current · Berkeley, CA</p>
     <h3>Research Intern · UC Berkeley</h3>
-    <p>Working with Alan on ABC optimization, with a current focus on <code>&amp;scorr</code> and logic-synthesis algorithms.</p>
+    <p>Working with Alan to optimize <code>&amp;scorr</code> in ABC and improve logic-synthesis algorithms.</p>
   </section>
   <section class="experience-item">
     <p class="experience-meta">Research internship · Beijing</p>
