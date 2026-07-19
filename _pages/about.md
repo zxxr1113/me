@@ -1,57 +1,69 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
-subtitle: Undergraduate at UCAS
+subtitle: Computer Science · UCAS · UC Berkeley
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
-  more_info: 
+  image_circular: true
+  more_info: >
+    Berkeley, California
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+selected_papers: false
+social: false
 
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: false
 ---
 
-I am an undergraduate student majoring in **Computer Science** at the **University of Chinese Academy of Sciences (UCAS)**. I am currently a **Visiting Student at UC Berkeley**, deeply interested in the intersection of **Large Language Models (LLMs)** and **Autonomous Agents**.
+I am XiRan Zhao, a Computer Science undergraduate at the University of Chinese Academy of Sciences and a visiting student at UC Berkeley. I work on the algorithms and systems that make intelligent agents more reliable, efficient, and useful.
 
-My goal is to build intelligent agents that are not only capable of advanced reasoning but are also efficient and robust. I am particularly excited about:
-*   **LLM-based Agents:** Reasoning, planning, and tool-augmented generation.
-*   **System-AI Co-design:** Leveraging my hardware background to optimize AI agent performance.
-*   **Algorithmic Optimization:** Improving the efficiency of LLM inference and long-context management.
+<div class="research-grid">
+  <section class="research-card">
+    <p class="eyebrow">01</p>
+    <h2>Agent design</h2>
+    <p>I design agents that plan, use tools, and adapt their reasoning to the task at hand. My current interest is in making these systems easier to evaluate and more dependable in practice.</p>
+  </section>
+  <section class="research-card">
+    <p class="eyebrow">02</p>
+    <h2>Formal methods × agents</h2>
+    <p>I am exploring the connection between formal verification and agents, with an emphasis on using rigorous constraints and feedback to improve agent behavior.</p>
+  </section>
+  <section class="research-card">
+    <p class="eyebrow">03</p>
+    <h2>Logic &amp; synthesis</h2>
+    <p>I continue to work on algorithmic optimization for logic synthesis, especially timing-aware synthesis and the computational foundations behind EDA tools.</p>
+  </section>
+</div>
 
----
+## Experience
 
-### **Experience**
-I have a solid foundation in both computer systems and algorithms from my previous research internships:
+<div class="experience-list">
+  <section class="experience-item">
+    <p class="experience-meta">Current · Berkeley, CA</p>
+    <h3>UC Berkeley</h3>
+    <p>Visiting student. I have worked with Alan on a range of optimization efforts for ABC, the open-source logic synthesis and formal verification framework. This experience connects my current work on agents with a longer-standing interest in efficient algorithms for EDA.</p>
+  </section>
+  <section class="experience-item">
+    <p class="experience-meta">Research internship · Beijing</p>
+    <h3>Institute of Software, Chinese Academy of Sciences</h3>
+    <p>Worked on SAT-solver improvements, including heuristic search and conflict-driven clause learning, and developed specialized algorithms for EDA problems.</p>
+  </section>
+  <section class="experience-item">
+    <p class="experience-meta">Research internship · Beijing</p>
+    <h3>Institute of Computing Technology, Chinese Academy of Sciences</h3>
+    <p>Designed and implemented a high-performance CPU from the ground up, including a seven-stage pipeline, cache, and TLB. The project gave me a practical grounding in computer architecture and system-level debugging.</p>
+  </section>
+</div>
 
-*   **Institute of Computing Technology, Chinese Academy of Sciences (ICT-CAS)**
-    **Research Intern | Hardware Architecture & Processor Design**
-    *   End-to-End CPU Design: Independently designed and implemented a high-performance CPU from scratch, including 7-stage pipeline, Cache, TLB almost all the technics in CPU design.
-    *   Key Skills: Verilog/SystemVerilog, Computer Architecture, System-level Debugging.
+## Background
 
-*   **Institute of Software, Chinese Academy of Sciences (ISCAS)**
-    **Research Intern | Algorithmic Logic & EDA**
-    *   Researched and implemented performance enhancements for SAT solvers, focusing on heuristic search and conflict-driven clause learning (CDCL).
-        Also designed specialized algorithms for Electronic Design Automation (EDA).
-    *   Key Skills: C++, Boolean Satisfiability (SAT), Mathematical Modeling.
+My background spans hardware, algorithms, and AI systems. I am comfortable moving between Python and C/C++, and I use Verilog/SystemVerilog when a project reaches the hardware boundary. I care most about problems where better abstractions and better algorithms reinforce each other.
 
-### **Skills**
-*   **Languages:** Python, C/C++, Verilog/SystemVerilog.
-*   **Math:** Linear Algebra, Probability, Discrete Math, Combinatorial math.
-*   **Tools:** Git, Linux, PyTorch, vivado.
-
----
-
-I’m always open to discussing new ideas in AI or sharing experiences about life in Berkeley. If you're looking for a motivated collaborator with a blend of hardware and algorithmic experience, please [reach out](mailto:zhaoxiran1113@berkeley.edu)!
+<p class="contact-line">I welcome conversations about agents, formal methods, logic synthesis, and new research collaborations. <a href="mailto:zhaoxiran1113@berkeley.edu">zhaoxiran1113@berkeley.edu</a></p>
