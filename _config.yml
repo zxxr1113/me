@@ -9,10 +9,10 @@ last_name: Zhao
 contact_note: >
   Please reach out by email for research discussions or collaboration.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  XiRan Zhao works on intelligent agents, formal methods, and algorithmic optimization for EDA.
+  XiRan Zhao is a UCAS Computer Science undergraduate working on Berkeley ABC, logic synthesis, formal verification, AI agents, and EDA.
 footer_text: >
-  Research in intelligent agents, formal methods, and EDA.
-keywords: intelligent agents, formal verification, logic synthesis, EDA, computer architecture
+  Research in logic synthesis, formal methods, AI agents, and EDA.
+keywords: Berkeley ABC, logic synthesis, formal verification, AI agents, EDA, computer architecture
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

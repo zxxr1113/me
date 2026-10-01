@@ -2,14 +2,14 @@
 layout: about
 title: home
 permalink: /
-subtitle: Computer Science · UCAS · UC Berkeley
+subtitle: Computer Science · UCAS · Logic Synthesis · AI Systems
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    Berkeley, California
+    Beijing, China
 
 selected_papers: false
 social: false
@@ -22,51 +22,52 @@ latest_posts:
   scrollable: false
 ---
 
-<p class="hero-intro">I am a Computer Science undergraduate at the University of Chinese Academy of Sciences and a research intern at UC Berkeley. I work on intelligent agents, formal methods, and algorithms for electronic design automation.</p>
+<p class="hero-intro">I am a Computer Science undergraduate at the University of Chinese Academy of Sciences (2023–2027). I develop logic-synthesis and formal-verification algorithms in Berkeley ABC and work on AI agents and EDA at the Institute of Software, Chinese Academy of Sciences.</p>
 
 <div class="hero-links">
   <a href="mailto:zhaoxiran1113@berkeley.edu">Email</a>
   <a href="https://github.com/zxxr1113">GitHub</a>
-  <a href="https://github.com/berkeley-abc/abc/pulls">ABC contributions</a>
+  <a href="{{ '/cv/' | relative_url }}">CV</a>
+  <a href="https://github.com/berkeley-abc/abc">Berkeley ABC</a>
 </div>
 
 <section class="featured-work">
   <div class="section-heading">
-    <p class="eyebrow">Current work</p>
-    <p>Berkeley, California</p>
+    <p class="eyebrow">Featured research</p>
+    <p>UC Berkeley · Summer 2026</p>
   </div>
   <div class="featured-work-card">
     <div>
-      <p class="work-role">Research Intern · UC Berkeley</p>
-      <h2>Optimizing <code>&amp;scorr</code> in <a href="https://github.com/berkeley-abc/abc">ABC</a>.</h2>
+      <p class="work-role">Research Intern · Advisor: Alan Mishchenko</p>
+      <h2>Three new commands in <a href="https://github.com/berkeley-abc/abc">Berkeley ABC</a>.</h2>
     </div>
     <div class="work-summary">
-      <p>I work with Alan on optimizing <code>&amp;scorr</code> in ABC, the open-source logic synthesis and formal verification system. I focus on algorithmic improvements for logic synthesis.</p>
-      <a class="work-link" href="https://github.com/berkeley-abc/abc/pulls">Browse my ABC pull requests <span aria-hidden="true">↗</span></a>
+      <p>Berkeley ABC is an open-source tool for optimizing and formally verifying digital circuits. I developed <code>&amp;scorr2</code> for incremental signal correspondence, <code>&amp;stran</code> for a further 7–10% circuit-size reduction, and <code>rewrite2</code> for 4.2× faster rewriting on HWMCC with identical optimization results.</p>
+      <a class="work-link" href="{{ '/cv/' | relative_url }}">Read the results in my CV <span aria-hidden="true">↗</span></a>
     </div>
   </div>
 </section>
 
 <section class="research-section">
   <div class="section-heading">
-    <p class="eyebrow">Research directions</p>
-    <p>Systems-minded AI</p>
+    <p class="eyebrow">Selected work</p>
+    <p>Algorithms, agents, and systems</p>
   </div>
   <div class="research-grid">
   <section class="research-card">
     <p class="card-index">01</p>
-    <h2>Agent design</h2>
-    <p>I design agents that plan, use tools, and adapt their reasoning to the task at hand. My current interest is in making these systems easier to evaluate and more dependable in practice.</p>
+    <h2>Verifiable AI agents</h2>
+    <p>At ISCAS, I integrated a code knowledge graph into SWE-agent, improving SWE-bench resolution by 10 percentage points with DeepSeek-V4. I also build agents that check reasoning through a typed state-transition DSL.</p>
   </section>
   <section class="research-card">
     <p class="card-index">02</p>
-    <h2>Formal methods × agents</h2>
-    <p>I design agents for formally verifying code, in the spirit of systems such as FMAgent. They combine program reasoning with verification tools to produce checkable results.</p>
+    <h2>EDA algorithms</h2>
+    <p>After the 2025 EDA Elite Challenge, our follow-up algorithms ran 2–10× faster than the previous state of the art across evaluated cases. An iterative clustering framework reached 99.9% of a linear optimization solver's solution quality.</p>
   </section>
   <section class="research-card">
     <p class="card-index">03</p>
-    <h2>Logic &amp; synthesis</h2>
-    <p>I continue to work on algorithmic optimization for logic synthesis, especially timing-aware synthesis and the computational foundations behind EDA tools.</p>
+    <h2>Computer systems</h2>
+    <p>I built a <a href="https://github.com/zxxr1113/RISC-V-CPU-with-7-stage-pipeline">seven-stage RISC-V processor</a> validated with 17 workloads on FPGA, and a <a href="https://github.com/zxxr1113/Operating-System-Project">Unix-like OS</a> exercised by 50+ test programs across six development stages.</p>
   </section>
   </div>
 </section>
@@ -75,25 +76,20 @@ latest_posts:
 
 <div class="experience-list">
   <section class="experience-item">
-    <p class="experience-meta">Current · Berkeley, CA</p>
+    <p class="experience-meta">Summer 2026 · Berkeley, CA</p>
     <h3>Research Intern · UC Berkeley</h3>
-    <p>Working with Alan to optimize <code>&amp;scorr</code> in ABC and improve logic-synthesis algorithms.</p>
+    <p>Advised by Alan Mishchenko. Developed three new Berkeley ABC commands: <code>&amp;scorr2</code>, <code>&amp;stran</code>, and <code>rewrite2</code>.</p>
   </section>
   <section class="experience-item">
-    <p class="experience-meta">Research internship · Beijing</p>
+    <p class="experience-meta">Jan. 2025–present · Beijing</p>
     <h3>Institute of Software, Chinese Academy of Sciences</h3>
-    <p>Worked on SAT-solver improvements, including heuristic search and conflict-driven clause learning, and developed specialized algorithms for EDA problems.</p>
-  </section>
-  <section class="experience-item">
-    <p class="experience-meta">Research internship · Beijing</p>
-    <h3>Institute of Computing Technology, Chinese Academy of Sciences</h3>
-    <p>Designed and implemented a high-performance CPU from the ground up, including a seven-stage pipeline, cache, and TLB. The project gave me a practical grounding in computer architecture and system-level debugging.</p>
+    <p>Advised by Xindi Zhang. Working on graph-guided issue resolution, formal reasoning verification, SAT heuristics, and EDA optimization.</p>
   </section>
 </div>
 
 <section class="background-note">
   <p class="eyebrow">Background</p>
-  <p>My work moves between hardware, algorithms, and AI systems. I use Python, C/C++, and Verilog/SystemVerilog, and I am drawn to problems where better abstractions meet better algorithms.</p>
+  <p>I study Computer Science and Technology at UCAS (B.Eng., 2023–2027; GPA 3.88/4.0, top 15%). I received the Xinde Academic Scholarship in 2024 and 2025 and the Academic Excellence Scholarship in 2024.</p>
 </section>
 
 <p class="contact-line">I welcome conversations about agents, formal methods, logic synthesis, and new research collaborations. <a href="mailto:zhaoxiran1113@berkeley.edu">zhaoxiran1113@berkeley.edu</a></p>
