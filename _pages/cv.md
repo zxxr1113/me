@@ -19,8 +19,8 @@ description: Research, projects, and awards.
 Berkeley ABC is an open-source tool for optimizing and formally verifying digital circuits.
 
 - **`&scorr2` — incremental signal correspondence.** Developed a new Berkeley ABC command that reuses SAT proofs, speculative-reduced-model state, and simulation signatures across refinement rounds. Achieved an 18.07× average speedup on two large industrial cases and 4.57× across 30 large academic cases over `&scorr`.
-- **`&stran` — constructive signal correspondence.** Developed a new Berkeley ABC command using counterexample-guided synthesis, bounded transitive fanout, and formal proof. Reduced circuit size by a further 7% within 5× the runtime of `&scorr`; don't-care analysis raised the reduction to 10% at roughly 20× its runtime. Manuscript in preparation for submission.
-- **`rewrite2` — incremental logic rewriting.** Developed a new Berkeley ABC command using incremental updates and lazy level computation. Ran 4.2× faster than `rewrite` on HWMCC benchmarks with identical optimization results on every case. Manuscript in preparation for submission.
+- **`&stran` — constructive signal correspondence.** Developed a new Berkeley ABC command using counterexample-guided synthesis, bounded transitive fanout, and formal proof. Reduced circuit size by a further 7% within 5× the runtime of `&scorr`; don't-care analysis raised the reduction to 10% at roughly 20× its runtime.
+- **`rewrite2` — incremental logic rewriting.** Developed a new Berkeley ABC command using incremental updates and lazy level computation. Ran 4.2× faster than `rewrite` on HWMCC benchmarks with identical optimization results on every case.
 
 ### Institute of Software, Chinese Academy of Sciences (ISCAS)
 
@@ -30,9 +30,11 @@ Berkeley ABC is an open-source tool for optimizing and formally verifying digita
 - **Formal reasoning verification agent.** Built a typed state-transition DSL and hybrid checks for agent reasoning. With task-specific templates for DeepSeek-V4-Flash, raised BabyBench success from 20% to 65% (Small benchmark), 9% to 51% (Medium benchmark), and 11% to 46% (Large benchmark); improved AIME accuracy from 50% to 75% on 12 problems.
 - **SAT and EDA optimization.** Improved CDCL search heuristics. Following the EDA Elite Challenge, developed algorithms that ran 2–10× faster than the previous state of the art across evaluated cases, while an iterative clustering framework reached 99.9% of a linear optimization solver's solution quality.
 
-## Publications
+## Publications and manuscripts
 
-- Manuscript under review at DATE 2027. Details withheld during double-blind review.
+- **Under review:** Manuscript submitted to DATE 2027.
+- **In preparation:** Manuscript on constructive signal correspondence in Berkeley ABC (`&stran`).
+- **In preparation:** Manuscript on iterative clustering and EDA algorithm optimization.
 
 ## Selected systems projects
 
