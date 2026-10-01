@@ -2,7 +2,7 @@
 layout: page
 permalink: /cv/
 title: CV
-nav: false
+nav: true
 description: Research, projects, and awards.
 ---
 
@@ -36,8 +36,8 @@ Berkeley ABC is an open-source tool for optimizing and formally verifying digita
 
 ## Selected systems projects
 
-- **[End-to-end RISC-V processor](https://github.com/zxxr1113/RISC-V-CPU-with-7-stage-pipeline)** · Sep. 2024–Jun. 2025. Designed a seven-stage pipelined processor with local cache, booted it on FPGA, and validated it with 17 RISC-V workload programs in the UCAS automated simulation and FPGA flow.
-- **[Unix-like operating system for RISC-V](https://github.com/zxxr1113/Operating-System-Project)** · Sep. 2025–Jan. 2026. Implemented process scheduling, virtual memory, synchronization, and persistent storage; exercised six development stages with 50+ test programs for scheduling, multicore synchronization, paging, networking, and file-system operations.
+- **End-to-end RISC-V processor** · [GitHub](https://github.com/zxxr1113/RISC-V-CPU-with-7-stage-pipeline) · Sep. 2024–Jun. 2025. Designed a seven-stage pipelined processor with local cache, booted it on FPGA, and validated it with 17 RISC-V workload programs in the UCAS automated simulation and FPGA flow.
+- **Unix-like operating system for RISC-V** · [GitHub](https://github.com/zxxr1113/Operating-System-Project) · Sep. 2025–Jan. 2026. Implemented process scheduling, virtual memory, synchronization, and persistent storage; exercised six development stages with 50+ test programs for scheduling, multicore synchronization, paging, networking, and file-system operations.
 
 ## Honors and awards
 
