@@ -19,7 +19,7 @@ description: Research, projects, and awards.
 Berkeley ABC is an open-source tool for optimizing and formally verifying digital circuits.
 
 - **`&scorr2` — incremental signal correspondence.** Developed a new Berkeley ABC command that reuses SAT proofs, speculative-reduced-model state, and simulation signatures across refinement rounds. Achieved an 18.07× average speedup on two large industrial cases and 4.57× across 30 large academic cases over `&scorr`.
-- **`&stran` — constructive signal correspondence.** Developed a new Berkeley ABC command using counterexample-guided synthesis, bounded transitive fanout, and formal proof. Reduced circuit size by a further 7% within 5× the runtime of `&scorr`; don't-care analysis raised the reduction to 10% at roughly 20× its runtime.
+- **`&stran` — sequential resubstitution.** Developed a new Berkeley ABC command using counterexample-guided synthesis, bounded transitive fanout, and formal proofs to generate and validate candidates. Reduced circuit size by a further 7% within 5× the runtime of `&scorr`; don't-care analysis raised the reduction to 10% at roughly 20× its runtime.
 - **`rewrite2` — accelerated logic rewriting.** Used lazy level computation and incremental updates to avoid redundant work, running 4.2× faster than `rewrite` on HWMCC with identical optimization results on every case. A 6-cut resubstitution flow ran more than 3× faster and achieved better logic reduction than 4-cut rewriting on selected cases.
 
 ### Institute of Software, Chinese Academy of Sciences (ISCAS)
@@ -33,7 +33,7 @@ Berkeley ABC is an open-source tool for optimizing and formally verifying digita
 ## Publications and manuscripts
 
 - **Under review:** Manuscript submitted to DATE 2027.
-- **In preparation:** Manuscript on constructive signal correspondence in Berkeley ABC (`&stran`).
+- **In preparation:** Manuscript on sequential resubstitution in Berkeley ABC (`&stran`).
 - **In preparation:** Manuscript on iterative clustering and EDA algorithm optimization.
 
 ## Selected systems projects
